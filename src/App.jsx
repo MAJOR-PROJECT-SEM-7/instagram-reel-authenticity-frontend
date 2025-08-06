@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="min-h-[340px] w-[370px] rounded-3xl shadow-2xl p-6 flex flex-col items-center justify-center gap-4 bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600 relative overflow-hidden">
       <div className="absolute inset-0 opacity-20 pointer-events-none bg-[radial-gradient(circle_at_80%_20%,rgba(255,255,255,0.3)_0%,transparent_70%)] overflow-hidden"></div>
-      <h1 className="text-3xl font-extrabold text-white drop-shadow mb-2 text-center tracking-tight">Instagram Reel Authenticity</h1>
+      <h1 className="gradient-text text-3xl font-extrabold text-white drop-shadow mb-2 text-center tracking-tight">Instagram Reel Authenticity</h1>
       <p className="text-white/90 font-medium text-center mb-4">Analyze any Instagram reel to check if the information is right or wrong.</p>
       <button
         className="px-8 py-2 bg-white/90 text-pink-600 font-bold rounded-full shadow-lg hover:bg-white transition-colors duration-200 border-2 border-white/80 backdrop-blur disabled:opacity-60"
